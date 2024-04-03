@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* ---------------------------------------------
+  reset
+--------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* 解析タグの隙間対策 */
+body > img {
+  display: none;
+}
+
+.lp_main div, .lp_main span, .lp_main iframe, .lp_main h1, .lp_main h2, .lp_main h3, .lp_main h4, .lp_main h5, .lp_main h6, .lp_main p, .lp_main address, .lp_main img, .lp_main small, .lp_main strong, .lp_main sub, .lp_main sup, .lp_main dl,
+.lp_main dt, .lp_main dd, .lp_main ol, .lp_main ul, .lp_main form, .lp_main label, .lp_main table, .lp_main caption, .lp_main tbody, .lp_main tfoot, .lp_main thead, .lp_main tr, .lp_main th, .lp_main td, .lp_main article,
+.lp_main aside, .lp_main footer, .lp_main header, .lp_main menu, .lp_main nav, .lp_main section, .lp_main video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+.lp_main article, .lp_main aside, .lp_main details, .lp_main figcaption, .lp_main figure,
+.lp_main footer, .lp_main header, .lp_main menu, .lp_main nav, .lp_main section {
+  display: block;
+}
+.lp_main ol, .lp_main ul {
+  list-style: none;
+}
+.lp_main :focus {
+  outline: 0;
+}
+.lp_main table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.lp_main *,
+.lp_main *::before,
+.lp_main *::after {
+  box-sizing: border-box;
+}
+.lp_main img {
+  display: block;
+  height: auto;
+  vertical-align: bottom;
+  width: 100%;
+  max-width: 100%;
+}
+.lp_main svg,
+.lp_main video {
+  width: 100%;
+  height: auto;
+}
+
+
+/* ---------------------------------------------
+  common
+--------------------------------------------- */
+/* スムーススクロール */
+html {
+  scroll-behavior: smooth;
+}
+
+.lp_main {
+  font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "メイリオ", Meiryo, "Meiryo UI", Avenir, "Open Sans", Helvetica, "Helvetica Neue", Arial, Verdana, Roboto, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------
+ アイコン
+--------------------------------------------- */
+/* アイコン くの字 */
+.lp_main .el_icnArrow {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  -webkit-transform: translate(0, -50%) rotate(45deg);
+  transform: translate(0, -50%) rotate(45deg);
+  display: block;
+  width: min(calc((20 / 750) * 100vw),20px);
+  height: min(calc((20 / 750) * 100vw),20px);
+  border-bottom: solid min(calc((4 / 750) * 100vw),4px) #fff;
+  border-right: solid min(calc((4 / 750) * 100vw),4px) #fff;
+}
+
+/* アイコン プラス */
+.lp_main .el_icnPlus {
+  display: flex;
+  position: absolute;
+  top: 31%;
+  right: 3%;
+  width: 5%;
+  height: 38%;
+  align-items: center;
+  justify-content: center;
+}
+.lp_main .el_icnPlus::before,
+.lp_main .el_icnPlus::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+.lp_main .el_icnPlus::before {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+
+/* ---------------------------------------------
+ アコーディオン
+--------------------------------------------- */
+.lp_main .bl_accordion {
+  width: calc(690 / 750 * 100%);
+  margin: 0 auto;
+}
+.lp_main .bl_accordion_contents {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+.lp_main .bl_accordion_contents.is_visible {
+  max-height: 3000px;
+}
+
+.lp_main .bl_accordion_btn {
+  position: relative;
+  cursor: pointer;
+}
+.lp_main .bl_accordion_btn.is_active .el_icnArrow {
+  -webkit-transform: translate(0, 0) rotate(-135deg);
+  transform: translate(0, 0) rotate(-135deg);
+}
+.lp_main .bl_accordion_btn.is_active .el_icnPlus::before {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
+
+/* ---------------------------------------------
+  utility
+--------------------------------------------- */
+/* positionで配置したい要素の外側に使用 */
+.lp_main .hp_relative {
+  position: relative;
+}
