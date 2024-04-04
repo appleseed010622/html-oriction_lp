@@ -159,3 +159,65 @@ html {
 .lp_main .hp_relative {
   position: relative;
 }
+
+
+/* ---------------------------------------------
+  fv
+--------------------------------------------- */
+
+.lp_main .fv_apology {
+  padding: 1.25rem !important;
+}
+
+.lp_main .fv_main {
+  position: relative !important;
+}
+
+.lp_main .fv_circle {
+  position: absolute !important;
+  width: auto !important;
+}
+
+.lp_main .fv_brand-1, .lp_main .fv_brand-2{
+  top: 35rem;
+}
+
+.lp_main .fv_brand-1 {
+  right: 16.125rem;
+}
+
+.lp_main .fv_brand-2 {
+  right: 0.5rem;
+}
+
+.lp_main .fv_brand-3 {
+  top: 49.875rem;
+  right: 8.8rem;
+}
+
+.lp_main .fv_test {
+  margin-top: -32.9375rem  !important;
+  margin-inline: 1.25rem !important;
+  position: relative;
+}
+
+.lp_main .fv_cv {
+  position: relative !important;
+}
+
+.lp_main .fv_cv_btc {  
+  position: absolute !important;
+  width: auto !important;  
+  margin: auto !important;
+  top: 56.5rem;
+  left: 2rem;
+}
+
+.lp_main .fv_compare_top {
+  margin-bottom: 3.5rem !important;
+}
+
+.fv_compare_btc {
+  width: auto !important;
+  margin: auto !important;
+}
