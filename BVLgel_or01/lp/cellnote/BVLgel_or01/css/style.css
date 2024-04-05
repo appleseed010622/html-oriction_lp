@@ -219,5 +219,135 @@ html {
 
 .fv_compare_btc {
   width: auto !important;
-  margin: auto !important;
+  margin: 3.125rem auto !important;
+}
+
+.fv_review{
+  position: relative !important;
+}
+
+.reviews {
+  width: auto !important;
+  position: absolute !important;  
+}
+
+.review_1 {
+  top: 83.5rem;
+  right: 1.5rem;
+}
+
+.review_2 {
+  top: 80rem;
+  left: 2rem;
+}
+
+.review_3 {
+  top: 95rem;
+  left: 1rem;
+}
+
+.fv_instagram {
+  margin-top: -50rem !important;
+}
+
+
+/* ---------------------------------------------
+  advert
+--------------------------------------------- */
+
+.advert_top {
+  position: relative;
+}
+
+.advert_magazine {
+  position: relative;
+}
+
+.advert_product {
+  position: absolute;
+  top: 48rem;
+  width: auto !important;
+}
+
+.advert_mini {
+  margin-top: -13rem !important;
+}
+
+
+.advert_model {
+  margin-top: -8rem !important;
+  position: relative;
+}
+
+.advert_me {
+  margin-top: -5rem !important;
+  position: relative;
+}
+
+.me_title, .me_screen-1, .me_screen-2{
+  width: auto !important;
+  position: absolute;
+}
+
+.me_title {
+  top: 20rem;
+}
+
+.me_screen-1 {
+  top: 110rem;
+  left: 6.25rem !important;
+}
+
+.me_screen-2 {
+  top: 238rem;
+  left: 3.75rem;
+}
+
+
+.advert_infiltration {
+  margin-top: -6rem !important;
+  position: relative;
+}
+
+.advert_face {
+  margin-top: -9rem !important;
+  position: relative;
+}
+
+
+
+.advert_letter {
+  position: relative;
+}
+
+.letters {
+  position: absolute;
+  width: auto !important;
+}
+
+.letter_1 {
+  top: 74rem;
+}
+
+.letter_2 {
+  top: 100rem;
+}
+
+.letter_3 {
+  top: 173rem;
+}
+
+.advert_methods {
+  margin: -5rem 0 -3rem !important;
+  position: relative;
+}
+
+
+/* ---------------------------------------------
+  advert
+--------------------------------------------- */
+
+
+.invoice {
+  margin: 3rem 0 !important;
 }
