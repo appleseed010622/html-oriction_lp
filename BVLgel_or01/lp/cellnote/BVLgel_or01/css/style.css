@@ -159,3 +159,195 @@ html {
 .lp_main .hp_relative {
   position: relative;
 }
+
+
+/* ---------------------------------------------
+  fv
+--------------------------------------------- */
+
+.lp_main .fv_apology {
+  padding: 1.25rem !important;
+}
+
+.lp_main .fv_main {
+  position: relative !important;
+}
+
+.lp_main .fv_circle {
+  position: absolute !important;
+  width: auto !important;
+}
+
+.lp_main .fv_brand-1, .lp_main .fv_brand-2{
+  top: 35rem;
+}
+
+.lp_main .fv_brand-1 {
+  right: 16.125rem;
+}
+
+.lp_main .fv_brand-2 {
+  right: 0.5rem;
+}
+
+.lp_main .fv_brand-3 {
+  top: 49.875rem;
+  right: 8.8rem;
+}
+
+.lp_main .fv_test {
+  margin-top: -32.9375rem  !important;
+  margin-inline: 1.25rem !important;
+  position: relative;
+}
+
+.lp_main .fv_cv {
+  position: relative !important;
+}
+
+.lp_main .fv_cv_btc {  
+  position: absolute !important;
+  width: auto !important;  
+  margin: auto !important;
+  top: 56.5rem;
+  left: 2rem;
+}
+
+.lp_main .fv_compare_top {
+  margin-bottom: 3.5rem !important;
+}
+
+.fv_compare_btc {
+  width: auto !important;
+  margin: 3.125rem auto !important;
+}
+
+.fv_review{
+  position: relative !important;
+}
+
+.reviews {
+  width: auto !important;
+  position: absolute !important;  
+}
+
+.review_1 {
+  top: 83.5rem;
+  right: 1.5rem;
+}
+
+.review_2 {
+  top: 80rem;
+  left: 2rem;
+}
+
+.review_3 {
+  top: 95rem;
+  left: 1rem;
+}
+
+.fv_instagram {
+  margin-top: -50rem !important;
+}
+
+
+/* ---------------------------------------------
+  advert
+--------------------------------------------- */
+
+.advert_top {
+  position: relative;
+}
+
+.advert_magazine {
+  position: relative;
+}
+
+.advert_product {
+  position: absolute;
+  top: 48rem;
+  width: auto !important;
+}
+
+.advert_mini {
+  margin-top: -13rem !important;
+}
+
+
+.advert_model {
+  margin-top: -8rem !important;
+  position: relative;
+}
+
+.advert_me {
+  margin-top: -5rem !important;
+  position: relative;
+}
+
+.me_title, .me_screen-1, .me_screen-2{
+  width: auto !important;
+  position: absolute;
+}
+
+.me_title {
+  top: 20rem;
+}
+
+.me_screen-1 {
+  top: 110rem;
+  left: 6.25rem !important;
+}
+
+.me_screen-2 {
+  top: 238rem;
+  left: 3.75rem;
+}
+
+
+.advert_infiltration {
+  margin-top: -6rem !important;
+  position: relative;
+}
+
+.advert_face {
+  margin-top: -9rem !important;
+  position: relative;
+}
+
+
+
+.advert_letter {
+  position: relative;
+}
+
+.letters {
+  position: absolute;
+  width: auto !important;
+}
+
+.letter_1 {
+  top: 74rem;
+}
+
+.letter_2 {
+  top: 100rem;
+}
+
+.letter_3 {
+  top: 173rem;
+}
+
+.advert_methods {
+  margin: -5rem 0 -3rem !important;
+  position: relative;
+}
+
+
+/* ---------------------------------------------
+  advert
+--------------------------------------------- */
+
+
+.invoice {
+  margin: 3rem 0 !important;
+}
