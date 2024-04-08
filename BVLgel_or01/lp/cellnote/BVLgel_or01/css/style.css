@@ -169,176 +169,200 @@ html {
   padding: 1.25rem !important;
 }
 
-.lp_main .fv_main {
+.lp_main .fv_main , .fv_cv , .fv_review{
   position: relative !important;
 }
 
 .lp_main .fv_circle {
-  position: absolute !important;
-  width: auto !important;
+  position: absolute ;
+  width: calc(272/750*100%);
 }
 
 .lp_main .fv_brand-1, .lp_main .fv_brand-2{
-  top: 35rem;
+  top: calc(560/2883*100%);
 }
 
 .lp_main .fv_brand-1 {
-  right: 16.125rem;
+  right: calc(258/750*100%);
 }
 
 .lp_main .fv_brand-2 {
-  right: 0.5rem;
+  right: calc(8/750*100%);
 }
 
 .lp_main .fv_brand-3 {
-  top: 49.875rem;
-  right: 8.8rem;
+  top: calc(798/2883*100%);
+  right: calc(140.8/750*100%);
 }
 
+
+/* --------------fv_test-------------- */
 .lp_main .fv_test {
-  margin-top: -32.9375rem  !important;
-  margin-inline: 1.25rem !important;
+  /* margin-top: -527px; */
+  margin-top: max(calc((-527/750)*100vw), -527px);
+  margin-inline: calc(20/750*100%) ;
   position: relative;
 }
 
-.lp_main .fv_cv {
-  position: relative !important;
-}
+/* -----------------fv_cv-------------- */
 
 .lp_main .fv_cv_btc {  
-  position: absolute !important;
-  width: auto !important;  
-  margin: auto !important;
-  top: 56.5rem;
-  left: 2rem;
+  position: absolute;
+  width: calc(687/750*100%);  
+  margin: auto;
+  top: calc(900/3560*100%);
+  left: calc(32/750*100%);
 }
+
+.lp_main .fv_txt {
+  color: #000;
+  position: absolute;
+  width: auto;
+  top: calc(900/3560*100%);
+  z-index: 100;
+}
+
+
+.fv_cv_gif {
+  position: absolute;
+}
+
+
+/* -------------fv_compare----------- */
 
 .lp_main .fv_compare_top {
-  margin-bottom: 3.5rem !important;
+  margin-bottom: calc(56/1419.75*100%);
 }
 
-.fv_compare_btc {
-  width: auto !important;
-  margin: 3.125rem auto !important;
+.lp_main .fv_compare_btc {
+  width: calc(441/750*100%);
+  margin: min(calc((50 / 750) * 100vw),50px) auto;
 }
 
-.fv_review{
-  position: relative !important;
+
+/* -------------reviews---------------------- */
+
+.lp_main .reviews {
+  width: calc(193/750*100%);
+  position: absolute;  
 }
 
-.reviews {
-  width: auto !important;
-  position: absolute !important;  
+.lp_main .review_1 {
+  top: calc(1336/2980*100%);
+  right: calc(24/750*100%);
 }
 
-.review_1 {
-  top: 83.5rem;
-  right: 1.5rem;
+.lp_main .review_2 {
+  top: calc(1280/2980*100%);
+  left: calc(32/750*100%);
 }
 
-.review_2 {
-  top: 80rem;
-  left: 2rem;
+.lp_main .review_3 {
+  top: calc(1520/2980*100%);
+  left: calc(16/750*100%);
 }
 
-.review_3 {
-  top: 95rem;
-  left: 1rem;
+.lp_main .fv_instagram {
+  margin-top: max(calc((-800/750)*100vw), -800px);
 }
 
-.fv_instagram {
-  margin-top: -50rem !important;
-}
+
 
 
 /* ---------------------------------------------
   advert
 --------------------------------------------- */
 
-.advert_top {
+.advert_top, .advert_magazine, .advert_letter{
   position: relative;
 }
 
-.advert_magazine {
-  position: relative;
-}
 
-.advert_product {
+.lp_main .advert_product {
   position: absolute;
-  top: 48rem;
-  width: auto !important;
+  top: calc(768/1977.72*100%);
+  width: calc(247/750*100%);
 }
 
-.advert_mini {
-  margin-top: -13rem !important;
+.lp_main .advert_mini {
+  margin-top: max(calc((-208/750)*100vw), -208px);
 }
 
 
-.advert_model {
-  margin-top: -8rem !important;
+.lp_main .advert_model {
+  margin-top: max(calc((-128/750)*100vw), -128px);
   position: relative;
 }
 
-.advert_me {
-  margin-top: -5rem !important;
+
+/* ------------advert_me--------------- */
+
+.lp_main .advert_me {
+  margin-top: max(calc((-80/750)*100vw), -80px);
   position: relative;
 }
 
 .me_title, .me_screen-1, .me_screen-2{
-  width: auto !important;
   position: absolute;
 }
 
-.me_title {
-  top: 20rem;
+.lp_main .me_title {
+  width: calc(498/750*100%);
+  top: calc(320/5897*100%);
 }
 
-.me_screen-1 {
-  top: 110rem;
-  left: 6.25rem !important;
+.lp_main .me_screen-1 {
+  width: calc(552/750*100%);
+  top: calc(1760/5897*100%);
+  left: calc(100/750*100%);
 }
 
-.me_screen-2 {
-  top: 238rem;
-  left: 3.75rem;
+.lp_main .me_screen-2 {
+  width: calc(630/750*100%);
+  top: calc(3808/5897*100%);
+  left: calc(60/750*100%);
 }
 
+/* -----------advert_infiltration------------- */
 
-.advert_infiltration {
-  margin-top: -6rem !important;
+
+.lp_main .advert_infiltration {
+  margin-top: max(calc((-96/750)*100vw), -96px);
   position: relative;
 }
 
-.advert_face {
-  margin-top: -9rem !important;
+.lp_main .advert_face {
+  margin-top: max(calc((-144/750)*100vw), -144px);
   position: relative;
 }
 
+/* ------------letters--------------------- */
 
-
-.advert_letter {
-  position: relative;
-}
-
-.letters {
+.lp_main .letter_1 {
+  width: calc(678/750*100%);
+  top: calc(1184/4105*100%);
   position: absolute;
-  width: auto !important;
+  left: calc(37/750*100%);
 }
 
-.letter_1 {
-  top: 74rem;
+.lp_main .letter_2 {
+  width: calc(690/750*100%);
+  top: calc(1600/4105*100%);
+  position: absolute;
+  left: calc(37/750*100%);
 }
 
-.letter_2 {
-  top: 100rem;
+.lp_main .letter_3 {
+  width: calc(692/750*100%);
+  top: calc(2768/4105*100%);
+  position: absolute;
+  left: calc(37/750*100%);
 }
 
-.letter_3 {
-  top: 173rem;
-}
-
-.advert_methods {
-  margin: -5rem 0 -3rem !important;
+.lp_main .advert_methods {
+  margin-top: max(calc((-80/750)*100vw), -80px) ;
+  margin-bottom: max(calc((-48/750)*100vw), -48px);
+  margin-inline: 0;
   position: relative;
 }
 
@@ -350,4 +374,124 @@ html {
 
 .invoice {
   margin: 3rem 0 !important;
+}
+
+
+
+/* ---------------------------------------------
+  footer
+--------------------------------------------- */
+
+.content_FAQ {
+  display: flex;
+  background-color: #f1f2f3 !important;
+  justify-content: center;
+}
+
+.FAQ_item {
+  margin-bottom: 3.25rem;
+  padding-inline: 2.5rem;
+}
+.FAQ_question {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  
+  position: relative;
+  background-color: #e16792;
+  color: #fff;
+  padding: 1.125rem 1.25rem 1.0625rem;
+  font-size: 1.375rem;  
+  font-weight: 600;
+}
+.FAQ_question-icon {
+  color: #e16792;  
+  background-color: #fff;  
+  display: flex;  
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 1.125rem;
+  max-width: 2.1875rem;
+  width: 100%;
+  height: 2.1875rem;
+  border-radius: 50%;
+}
+.FAQ_question-mark::before, .FAQ_question-mark::after {
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 0.1875rem;
+  background-color: #fff;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  top: 50%;
+  right: 2.3125rem;
+}
+.FAQ_question-mark::before {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+          transform: translateY(-50%) rotate(90deg);
+}
+.FAQ_question.selected .FAQ_question-mark::before {
+  -webkit-transform: translateY(-50%) rotate(0deg);
+          transform: translateY(-50%) rotate(0deg);
+}
+.FAQ_question.selected .FAQ_question-mark::after {
+  -webkit-transform: translateY(-50%) rotate(0deg);
+          transform: translateY(-50%) rotate(0deg);
+}
+.FAQ_answer {
+  display: none;
+  padding: 1.125rem 1.25rem 1.0625rem;
+}
+.FAQ_answer-icon {
+  color: #fff;
+  background-color: #e16792;
+  max-width: 2.1875rem;
+  width: 100%;
+  height: 2.1875rem;
+  border-radius: 50%;  
+  display: flex; 
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 1.125rem;
+  font-size: 1.375rem;  
+  font-weight: 600;
+}
+.main_FAQ_answer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.FAQ_answer-txt {
+  font-size: 1.125rem;
+  line-height: 1.7777777778;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+.FAQ_answer-link {  
+  font-size: 1.125rem;  
+  font-weight: 600;  
+}
+
+dd {
+  margin-inline-start: 0;
 }
